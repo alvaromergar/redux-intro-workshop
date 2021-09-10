@@ -5,31 +5,26 @@ import "./Header.scss";
 
 function Header({ ...props }) {
   return (
-    <header className="bg-primary mb-4" {...props}>
+    <header className="bg-primary mb-4 Header" {...props}>
       <div className="container-fluid">
         <div className="row">
-          <nav className="navbar navbar-expand navbar-dark">
+          <nav className="navbar navbar-expand navbar-dark nav-container">
             <NavLink
               exact
               activeClassName="active"
-              className="navbar-brand"
+              className="navbar-brand navLink-space"
               to="/"
             >
               Home
-            </NavLink>
-
-            {/* <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <NavLink
+              </NavLink>
+              <NavLink
                   exact
                   activeClassName="active"
-                  className="nav-link"
-                  to="/new-product"
+                  className="nav-link  navLink-space"
+                  to="/Dashboard"
                 >
-                  New Product
-                </NavLink>
-              </li>
-            </ul> */}
+                  Dashboard
+              </NavLink>
           </nav>
         </div>
       </div>
