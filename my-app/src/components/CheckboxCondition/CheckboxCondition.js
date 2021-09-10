@@ -7,6 +7,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import Checkbox from '@material-ui/core/Checkbox';
 
+import { connect } from "./react-redux";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
