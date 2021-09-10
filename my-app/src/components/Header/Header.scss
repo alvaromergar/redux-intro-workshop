@@ -1,9 +1,16 @@
 .Header {
-  background-color: cadetblue;
-  padding: 2rem;
+  background-color: rgb(110, 21, 138);
+  padding: 0 2rem;
   font-size: 26px;
   font-weight: bold;
-  color: aliceblue;
+}
+.div-container{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .nav-container{
   display: flex;
@@ -15,5 +22,9 @@
 }
 .navLink-space{
 margin: 0 0.5rem;
+color: aliceblue;
 text-decoration:none;
+}
+img{
+  height: 140px;
 }
