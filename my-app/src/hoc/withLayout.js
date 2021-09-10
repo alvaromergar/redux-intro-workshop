@@ -9,7 +9,7 @@ function getDisplayName(WrappedComponent) {
 }
 
 /* eslint no-param-reassign: [2, { "props": false }] */
-function layout(WrappedComponent) {
+function withLayout(WrappedComponent) {
   WrappedComponent.displayName = `layout(${getDisplayName(
     WrappedComponent,
   )})`;
@@ -29,4 +29,4 @@ function layout(WrappedComponent) {
   return WrapperComponent;
 }
 
-export default layout;
+export default withLayout;
