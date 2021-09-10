@@ -9,10 +9,12 @@ import SelectionEquipment from "../../components/SelectionEquipment";
 import PublicationDate from "../../components/PublicationDate";
 import ButtonBedrooms from "../../components/ButtonBedrooms";
 import ButtonBathrooms from "../../components/ButtonBathrooms";
+import Header from "../../components/Header";
 
 function Main() {
   return(
     <div>
+      <Header />
       <Container className="fondo">
           <Row className="gridForm">
             <Col className="cell">
